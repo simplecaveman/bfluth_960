@@ -1,0 +1,134 @@
+.breadcrumb {
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.breadcrumb a {
+	text-decoration: none;
+}
+
+div#sidebar-right .view-content {
+	padding-left: 1.2em;
+	margin-top: .5em
+}
+
+div#sidebar-right .view-footer {
+	padding-right: 1.2em;
+}
+
+div#block-views-calendar-of-events-block-2 .item-list ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+div#block-views-calendar-of-events-block-2 .views-field-field-event-date .field-content {
+	line-height: 1em;
+}
+
+div#block-views-calendar-of-events-block-2 ul li {
+	list-style: none;
+}
+
+div#block-views-calendar-of-events-block-2 .view-footer p {
+	margin-top: 0;	
+	text-align: right;
+	padding: 0;
+}
+
+div#block-views-calendar-of-events-block-2 .view-footer p a {
+	font-weight: normal;
+}
+
+
+.sidebar .block.first {
+	margin-top: 3.6em;
+}
+
+.sidebar .block.last {
+	margin-bottom: 2em;
+}
+
+.sidebar .block h2, .sidebar .block h2 a  {
+	line-height: 1.4em;
+	color: white;
+	font-weight: 400;
+	letter-spacing: .1em;
+}
+
+.sidebar .block h2 a {
+	text-decoration: none;
+}
+
+.sidebar .block h2 a:hover {
+	color: yellow;
+}
+
+.block-views.first .date-display-single {
+	font-size: .8em;
+}
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.5em;
+}
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+	margin-bottom: 0;
+}
+
+div.region-footer div.first {
+	margin-bottom: 0;
+
+}
+
+.region-footer {
+	height: 3em;
+}
+
+.region-footer .content p {
+	margin-top: .2em;
+}
+
+.region-sidebar-second {
+/* 	padding: 0 1em 0 1em; */
+}
+
+.region-content {
+	/* padding: 0 1em 0 2em; */
+}
+
+#block-views-calendar-of-events-block-2 .item-list ul li {
+	margin-left: 0;
+}
+
+.block h2 { /* #block-views-calendar-of-events-block-2 h2 { */
+	margin-bottom: 0;
+	padding-top: .3em;	
+}
+
+#sidebar-right .block {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 1em;
+	padding-bottom: .5em;
+	width: 290px;
+	background: #d2ddd8;
+	-webkit-border-bottom-left-radius: 11px;
+	-moz-border-radius-bottomleft: 11px;
+}
+
+#sidebar-right h2 {
+	background: #717771;
+	color: #fff;
+	padding: .5em 0 .5em .6em;
+	-webkit-border-bottom-left-radius: 11px;
+	-moz-border-radius-bottomleft: 11px;
+	line-height: 1.4em;
+	font-weight: 300;
+	letter-spacing: .04em;
+	font-size: 1.4em;
+}

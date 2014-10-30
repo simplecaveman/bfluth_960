@@ -1,0 +1,168 @@
+*{margin:0;padding:0;}
+
+body, html, #page-wrapper {
+   background-color: #273525;
+}
+
+#page-wrapper {
+	width: 100%;
+	/* background: url('images/page-bg.jpg') repeat-x top; */
+}
+
+#page-wrapper, #page {
+	background-image: url('images/page-bg.jpg');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+#site-header {
+	height: 23.1em;
+	background-image: url('images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: 0, 0;
+	margin-bottom: .8em;
+	
+}
+
+#page {
+ background-color: #fff;
+}
+
+/* from old stylesheet ---------------------------------------- */
+.thumb-row-clear {
+	clear: both;
+}
+
+div.photo-album-thumb {
+	margin: 1em;float: left;
+}
+
+div.node-photo-albums .content {
+	/* width: 56.84em; */
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 1em;		
+}
+
+div.photo-album-thumb {
+	width: 14em;
+}
+
+div.photo-album-thumb img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div.view-id-photo_galleries a {
+	font-size: 2em;
+	display: block;
+	font-weight: bold;
+	padding: 1em 0 0 1em;
+	text-decoration: none;
+}
+
+/* 
+div.view-id-photo_galleries img {
+	padding-top: 1em;
+}
+*/
+
+div.view-id-photo_galleries td.views-field-title {
+	vertical-align: top;
+}
+
+div.view-id-photo_galleries tr.even, tr.odd {
+	border: none;
+}
+
+.view-id-photo_galleries.view-display-id-page table {
+	margin-top: 0;
+	width: 100%;
+}
+
+.view-id-photo_galleries.view-display-id-page table .views-field.views-field-field-album-photo {
+	width: 20%;
+}
+
+.node-photo-albums {
+	background: #6E915D;
+}
+
+.view-church-blog-announcements ul {
+
+}
+
+.view-church-blog-announcements ul li {
+	list-style-type: none;
+}
+
+.view-church-blog-announcements views-field {
+
+}
+
+.view-church-blog-announcements .views-field-created {
+	font-size: .8em;
+}
+
+.view-church-blog-announcements.view-display-id-page .views-field-title {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.view-church-blog-announcements .views-field-title a {
+	text-decoration: none;
+	
+}
+
+.view-church-blog-announcements .views-field-body {
+
+}
+
+.view-church-blog-announcements ul li {
+	background: #f2f0e3; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjBlMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmVjY2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f2f0e3 0%, #f2eccd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f0e3), color-stop(100%,#f2eccd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f0e3 0%,#f2eccd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f0e3 0%,#f2eccd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f0e3 0%,#f2eccd 100%); /* IE10+ */
+	background: linear-gradient(top,  #f2f0e3 0%,#f2eccd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f0e3', endColorstr='#f2eccd',GradientType=0 ); /* IE6-8 */
+
+	border: 1px solid #000;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	padding: 1em;
+
+}
+
+.node-webform {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.webform-component {
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+
+.webform-component label {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.webform-component .description {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.page-content-right-upper-corner {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}

@@ -1,0 +1,22 @@
+screenshot  = screenshot.png
+name        = Redeemer Lutheran Church
+description = A NineSixty based custom theme for Redeemer Lutheran Church
+core = 7.x
+base theme = ninesixty
+
+stylesheets[all][]        = css/style.css
+stylesheets[all][]        = css/navigation.css
+stylesheets[all][]        = css/blocks.css
+
+regions[navigation]     = Navigation bar
+
+regions[page_top]       = Page top
+regions[header]         = Header
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlight
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer]         = Footer
+regions[page_bottom]    = Page bottom
